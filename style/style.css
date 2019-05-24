@@ -2,6 +2,7 @@
   --main-donker: #872200;
   --main-licht: #fad882;
   --main-actief: #ed9b20;
+  --main-footerbackground: #343a40;
 }
 html {
   font-size: 62.5%;
@@ -51,13 +52,52 @@ nav .row .ActiefMenuItem a {
 h6 {
   color: var(--main-licht);
   font-size: 2.8rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 p {
   color: white;
   font-size: 2rem;
+  font-weight: 300;
 }
 section#content img {
   width: 100%;
 }
 /* EINDE MAIN */
+/* BEGIN FOOTER */
+footer {
+  background-color: var(--main-footerbackground);
+  color: white;
+  margin-top: 10rem;
+}
+footer .Categories div {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+footer .FooterLine {
+  background-color: white;
+  height: 0.2rem;
+  margin-bottom: 1rem;
+}
+footer div p {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+footer div div div {
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+footer div div div a {
+  color: white;
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+footer div div div a:hover {
+  color: white;
+}
+
+footer div div div a img {
+  width: 70%;
+  margin-bottom: 2rem;
+}

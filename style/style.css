@@ -1,0 +1,103 @@
+:root {
+  --main-donker: #872200;
+  --main-licht: #fad882;
+  --main-actief: #ed9b20;
+  --main-footerbackground: #343a40;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-color: black;
+}
+/* BEGIN NAV */
+nav {
+  background-color: var(--main-donker);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+nav div {
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+nav .row .MenuItem a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+nav .row .MenuLogo img {
+  width: 80%;
+}
+nav .row .MenuItem a:hover {
+  color: var(--main-actief);
+  font-weight: bold;
+}
+
+nav .row .ActiefMenuItem a {
+  color: var(--main-actief);
+  font-weight: bold;
+}
+/* EINDE NAV */
+/* BEGIN MAIN */
+#carouselId {
+  margin-top: 13rem;
+  margin-bottom: 8rem;
+}
+h6 {
+  color: var(--main-licht);
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+}
+section#content img {
+  width: 100%;
+}
+/* EINDE MAIN */
+/* BEGIN FOOTER */
+footer {
+  background-color: var(--main-footerbackground);
+  color: white;
+  margin-top: 10rem;
+}
+footer .Categories div {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+footer .FooterLine {
+  background-color: white;
+  height: 0.2rem;
+  margin-bottom: 1rem;
+}
+footer div p {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+footer div div div {
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+footer div div div a {
+  color: white;
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+footer div div div a:hover {
+  color: white;
+}
+
+footer div div div a img {
+  width: 70%;
+  margin-bottom: 2rem;
+}
